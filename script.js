@@ -35,83 +35,146 @@
 // // divs[1].innerHTML="new value of div one";
 // // divs[0].innerHTML="new value of div one";
 
-
-
-// Array Destructuring
-const fruits=["apple","mango","bnana","litchi","graps"];
-const[first,second,third]=fruits;
-console.log(first,second,third);
-
-
-
-// Object Destructuring
-const student={
-    name:"ali",
-    age:21,
-    contact:23324545
-}
-const {name,age,contact}=student;
-console.log(name,"  " ,age,"   ",contact);
+// let div=document.querySelector("div")
 
 
 
 
 
-// Array Function Destructuring
-const logfruits=([first,second,third])=>{
-    console.log(first,second,third);
-}
-logfruits(["mango","apple","oringe"]);
-
-
-// Function Destructuring
-const person=({name,age,address})=>{
-    console.log(`Name:${name}  Age:${age}  Address${address}`)
-}
-person({name:"ali",  age:32 ,address:":swabi"});
-
-
-
-// Default Parameters in ES6
-function greet(name="khan"){
-    console.log(`Hello! ${name}`)
-
-}
-greet("ali")
 
 
 
 
-// Roll-a-Die Function with Default Parameter:
-function rollDie(slide=6){
+
+
+// // Array Destructuring
+// const fruits=["apple","mango","bnana","litchi","graps"];
+// const[first,second,third]=fruits;
+// console.log(first,second,third);
+
+
+
+// // Object Destructuring
+// const student={
+//     name:"ali",
+//     age:21,
+//     contact:23324545
+// }
+// const {name,age,contact}=student;
+// console.log(name,"  " ,age,"   ",contact);
+
+
+
+
+
+// // Array Function Destructuring
+// const logfruits=([first,second,third])=>{
+//     console.log(first,second,third);
+// }
+// logfruits(["mango","apple","oringe"]);
+
+
+// // Function Destructuring
+// const person=({name,age,address})=>{
+//     console.log(`Name:${name}  Age:${age}  Address${address}`)
+// }
+// person({name:"ali",  age:32 ,address:":swabi"});
+
+
+
+// // Default Parameters in ES6
+// function greet(name="khan"){
+//     console.log(`Hello! ${name}`)
+
+// }
+// greet("ali")
+
+
+
+
+// // Roll-a-Die Function with Default Parameter:
+// function rollDie(slide=6){
    
-return Math.ceil(Math.random()*slide);
-}
-console.log(rollDie());
-console.log(Math.random());
+// return Math.ceil(Math.random()*slide);
+// }
+// console.log(rollDie());
+// console.log(Math.random());
 
 
 
 
-// Combining Two Arrays Using Spread Operator
-const arr1=[1,2,3,]
-const arr2=[6,7,8]
-const combin=[...arr1,...arr2];
-console.log(combin)
+// // Combining Two Arrays Using Spread Operator
+// const arr1=[1,2,3,]
+// const arr2=[6,7,8]
+// const combin=[...arr1,...arr2];
+// console.log(combin)
 
 
 
 
-// Combining Two Objects Using Spread Operator
-const obj1={n:22,m:43};
-const obj2={a:45,f:33};
-const combin1={...obj1,...obj2};
-console.log(combin1)
+// // Combining Two Objects Using Spread Operator
+// const obj1={n:22,m:43};
+// const obj2={a:45,f:33};
+// const combin1={...obj1,...obj2};
+// console.log(combin1)
 
 
 
 
-// Spread Operator with Strings
-const name1="habib";
-const letters=[...name];
-console.log(letters)
+// // Spread Operator with Strings
+// const name1="habib";
+// const letters=[...name];
+// console.log(letters)
+
+
+
+// const arr1=[1,2,3,4,5,]
+// const arr2=[6,7,8,9]
+// const combined=[...arr1,...arr2];
+// console.log(combined);
+// function add(){
+//     let sum=0;
+//     for(let i=0; i<arguments.length;i++){
+//         sum += arguments[i]
+      
+//     }
+//     return sum;
+// }console.log(add(...combined));
+// function add(...rest){
+//     let sum=0;
+//     for(let i=0; i<rest.length;i++){
+//         sum += rest[i]
+//     }
+//     return sum;
+// }
+// console.log(add(...combined))
+// const arr1=[1,2,3,4];
+// const arr2=[5,6,7,8];
+// const combined=[...arr1,...arr2];
+// console.log(combined);
+// function add(...rest){
+//     sum=0;
+//     for(let i=0;i<rest.length;i++){
+// sum+=rest[i];
+//     }
+//     return sum;
+// }
+// console.log(add(...combined));
+//  const arr1=["khsn","ali","muhammad","ahmad"];
+//  const [first,second,third]=arr1;
+//  console.log(first," ",second," ",third);
+//  const student={
+//     name:"ali",
+//     age:32,
+//     address:"swabi"
+//  }
+//  const{name,age,address}=student;
+//  console.log(name," ",age," ",address);
+// const fruits=([first,second,third])=>{
+//     console.log(first,second,third);
+// }
+// fruits(["apple","mango","graps"]);
+// const person=({name , age})=>{
+// console.log(`Name:${name}   Age${age}`);
+// }
+// person({name:"sudais" , age:":22"})
