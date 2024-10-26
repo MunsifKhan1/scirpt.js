@@ -178,3 +178,39 @@
 // console.log(`Name:${name}   Age${age}`);
 // }
 // person({name:"sudais" , age:":22"})
+// function greet(name= "khan"){
+//     console.log(`hello!,${name}`)
+// }
+// greet("ali");
+// function rollDie(slide=6){
+// return Math.ceil(Math.random()*6);
+// }
+// console.log(rollDie());
+// const arr1=[1,2,3,4];
+// const arr2=[5,6,7,8];
+// const combined=[...arr1,...arr2];
+// console.log(combined);
+// const obj1={name:"munsif",age:24}
+// const obj2={address:"swabi",contact:2322454};
+// const combin1={...obj1,...obj2};
+// console.log(combin1)
+// let name="munsif khan";
+// const letters=[...name];
+// console.log(letters)
+// function sum(a,b,c,d){
+//     return a+b+c+d;
+// }
+// const number= [1,2,3,4,5];
+// console.log(sum(...number));
+
+const number=[1,2,3,4]
+function sum(){
+    let sum=0;
+    for(let i=0;i<arguments.length;i++){
+    sum+=arguments[i];
+}
+return sum;
+}
+console.log(sum(...number))
+
+
