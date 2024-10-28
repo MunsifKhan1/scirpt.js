@@ -203,14 +203,19 @@
 // const number= [1,2,3,4,5];
 // console.log(sum(...number));
 
-const number=[1,2,3,4]
-function sum(){
-    let sum=0;
-    for(let i=0;i<arguments.length;i++){
-    sum+=arguments[i];
-}
-return sum;
-}
-console.log(sum(...number))
+// const number=[1,2,3,4]
+// function sum(){
+//     let sum=0;
+//     for(let i=0;i<arguments.length;i++){
+//     sum+=arguments[i];
+// }
+// return sum;
+// }
+// console.log(sum(...number))
+// setTimeout(() => {
+//     location.reload()
+// },2000);
+const button= document.querySelector("button");
+button.addEventListener("click",()=>alert("button clicked!"));
 
 
