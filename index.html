@@ -3,10 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My Search Engine</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="div">wellcom</div>
+    <header>
+        <h1>My Search Engine</h1>
+        <form id="search-form">
+            <input type="text" id="query" placeholder="Search here..." required>
+            <button type="submit">Search</button>
+        </form>
+    </header>
+    <section id="results">
+        <!-- Search results will appear here -->
+         <div>
+            <span>hello world</span>
+            <h2>how are you?</h2>
+            <img src="amazon-logo.png" alt="a">
+         </div>
+         <div>
+            <span class="hello">hello world</span>
+            <h3>how are you?</h3>
+            <img id="image" src="amazon-logo.png" alt="a">
+         </div>
+         <br>
+         <div class="box">hi</div>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>

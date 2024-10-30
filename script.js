@@ -215,7 +215,29 @@
 // setTimeout(() => {
 //     location.reload()
 // },2000);
-const button= document.querySelector("button");
-button.addEventListener("click",()=>alert("button clicked!"));
+// const button= document.querySelector("button");
+// button.addEventListener("click",()=>alert("button clicked!"));
 
 
+// document.body.children[1].children[1].children[1].innerHTML='<i>hello world</i>';
+
+// const text=document.body.children[1].children[1].children[1]
+
+// const text1=document.getElementsByTagName("h2")[0]
+// text1.innerHTML='<i>hello world</i>';
+
+// const img=document.getElementById("image")
+
+// img.src="sat-logo.jpg"
+
+
+// const classhello=document.getElementsByClassName("hello")[0]
+// console.log(classhello);
+
+// classhello.innerText="olamba"
+// const callshi =document.getElementsByClassName("box")[0];
+// console.log(callshi)
+// callshi.innerHTML="olamba"
+const classhello=document.getElementsByTagName("span")[0];
+// console.log(classhello);
+classhello.innerText="wellcom pakistan"
